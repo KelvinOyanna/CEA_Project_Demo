@@ -31,7 +31,6 @@ final as (
     join payments using(orderid)
     group by 1
     order by 2 desc
-    limit 5
 )
 
 select * from final
